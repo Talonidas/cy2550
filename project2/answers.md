@@ -8,4 +8,4 @@ Part 4.3: The sender's private key is used for signing. The sender's public key 
 Part 5: The much smaller Ed25519 key is not necessarily the weaker key since it uses its own specific type of encryption, which allows smaller keys than RSA ones to still be harder to solve for any given size, so even a smaller key can be harder to solve than a longer RSA key.
 Part 7.1: I used gemini with the prompt: “Write me a Python function that encrypts a file with AES.”
 Part 7.2: The code doesn't have any security relevant defects. It uses a 256-bit AES key, a random nonce, and AES, which ensures both confidentiality and integrity. It doesn't use ECB which can lead to security issues. It also preserves the tag, making sure that if there is any modification during transit, the receiver can find out and react accordingly. 
-Part 7.3:
+Part 7.3: Since the code didn;t have any security defects, I didn't change it

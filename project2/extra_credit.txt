@@ -1,0 +1,8 @@
+Plaintext: NEVER GONNA GIVE YOU UP
+
+Used Cyberchef
+1. Used 6 Find / Replace operationt to convert the different characteres in the cyphertext into R, I, C, or K. 
+2. Used substitute to converted the letters into two digit values by converting R into 00, I into 01, C into 10, and K into 11
+3. Used remove whitespace with all options other than full stops turned on 
+4. Used From binary using 8 bytes as length and None as the delimiter. 
+5. Used Atbash cipher
